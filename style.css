@@ -57,8 +57,7 @@ footer {
 /* Menu de Navegação */
 .nav-index{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 
     background-color: lightblue;
 
@@ -67,4 +66,8 @@ footer {
 #icon {
     width: 65px;
     height: 65px;
+}
+
+.flex{
+    display: flex;
 }
