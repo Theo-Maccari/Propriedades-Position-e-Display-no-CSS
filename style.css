@@ -16,13 +16,7 @@ header {
 
 
 
-main {
-    padding: 50px;
-    display: flex;
 
-    justify-content: center;
-    text-align: center;
-}
 
 .bloco-index {
     padding: 100px;
@@ -105,4 +99,12 @@ footer {
     padding: 20px;
 
 
+.position { 
+ padding: 20px;
+ border-radius: 25px;
+ border: 25px;
+ background-color: aliceblue;
+ text-align: center;
+ gap: 50px;
+ margin: 50px;
 }
