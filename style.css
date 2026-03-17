@@ -14,9 +14,13 @@ header {
     text-align: center;
 }
 
+main {
+    padding: 50px;
+    display: flex;
 
-
-
+    justify-content: center;
+    text-align: center;
+}
 
 .bloco-index {
     padding: 100px;
