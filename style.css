@@ -30,6 +30,7 @@ h2 {
 
     padding: 30px;
     background-color: white;
+    display: inline-block;
 }
 
 
@@ -134,3 +135,25 @@ footer {
     color: black;
 }
 
+/* Exemplos*/
+
+.ex_block {
+    display: block;
+}
+
+.ex_inline_block {
+    display: inline-block;
+}
+
+.ex_flex {
+    display: flex;
+}
+
+.ex_inline_flex {
+    display: inline-flex;
+}
+
+
+.ex_block {
+    display: inline;
+}
