@@ -4,7 +4,9 @@ body {
     background-color: rgb(185, 221, 233);
 }
 
-
+#position {
+    display: flex;
+}
 
 
 header {
@@ -12,13 +14,9 @@ header {
     text-align: center;
 }
 
-main {
-    padding: 50px;
-    display: flex;
 
-    justify-content: center;
-    text-align: center;
-}
+
+
 
 .bloco-index {
     padding: 100px;
@@ -32,7 +30,6 @@ h2 {
 
     padding: 30px;
     background-color: white;
-    border-radius: 25px;
 }
 
 
@@ -110,26 +107,4 @@ footer {
  text-align: center;
  gap: 50px;
  margin: 50px;
-}
-
-.display { 
- padding: 20px;
- border-radius: 25px;
- border: 25px;
- background-color: aliceblue;
- text-align: center;
- gap: 50px;
- margin: 50px;
-}
-
-.navdisplay {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    background-color: lightblue;
-
-    font-family: 'Times New Roman', Times, serif;
-
-    color: black;
 }
