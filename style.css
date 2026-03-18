@@ -4,7 +4,9 @@ body {
     background-color: rgb(185, 221, 233);
 }
 
-
+#position {
+    display: flex;
+}
 
 
 header {
@@ -12,13 +14,9 @@ header {
     text-align: center;
 }
 
-main {
-    padding: 50px;
-    display: flex;
 
-    justify-content: center;
-    text-align: center;
-}
+
+
 
 .bloco-index {
     padding: 100px;
@@ -32,7 +30,6 @@ h2 {
 
     padding: 30px;
     background-color: white;
-    border-radius: 25px;
 }
 
 
