@@ -74,9 +74,12 @@ footer {
     height: 85px;
 }
 
+
 .flex {
     display: flex;
 }
+
+
 
 /*Display*/
 
@@ -130,6 +133,4 @@ footer {
 
     color: black;
 }
-
-
 
