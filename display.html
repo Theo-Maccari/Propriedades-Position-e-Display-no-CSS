@@ -3,143 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Propriedades do display</title>
+    <title>Propriedades do Display</title>
+
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="navposition">
+        <h1> Propriedades de Display</h1>
+        <ul>
+            <li><a href="display.html">Display</a></li>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="position.html">Position</a></li>
+        </ul>
+    </nav>
 
-    <header>
-        <nav class="title">
-            <ul>
-                <h1>Propriedades de display</h1>
-                <li><a href="index.html">Página Principal</a></li>
-                <li><a href="position.html">Página Position</a></li>
-            </ul>
-        </nav>
-    </header>
+
+
+
+
 
     <main>
 
-        <h2>A propriedade CSS display define como um elemento HTML é renderizado e posicionado, <br>
-            controlando se ele se comporta como um bloco, linha ou contêiner. </h2>
+        <div class="display">
+            <h3> Definição do Position: </h3>
+            <br>
+            <p>A propriedade position no CSS define como um elemento é posicionado no documento (renderizado na página).
+            </p>
+            <p> Ela altera o fluxo normal do layout, permitindo mover elementos e fixá-los usando propriedades como top,
+                bottom, left e right.</p>
+            <p> Os cinco valores principais são: static, relative, absolute, fixed e sticky.</p>
+        </div>
 
-        <div class="item">
-            <h2>Display: Block</h2>
-            <p>Exibe um elemento como um elemento de bloco (como p ). Ele começa em uma nova linha e ocupa toda a
-                largura.</p>
+        <!--Início dos blocos de texto-->
 
-            <div class="item">
-                <h2>Display: Inline</h2>
-                <p>Exibe um elemento em linha (como span). Quaisquer propriedades de altura e largura não terão efeito.
-                </p>
+        <div class="display">
+            <h3> Display: Block </h3>
+            <p>Exibe um elemento como um elemento de bloco (como p ). Ele começa em uma nova linha e ocupa toda a largura.</p>
+        </div>
 
-                <div class="item">
-                    <h2>Display: Inline-Block</h2>
-                    <p>Exibe um elemento como um contêiner de bloco em linha. O próprio elemento é formatado como um
-                        elemento em linha,
-                        mas você pode aplicar valores de altura e largura.</p>
+        <div class="display">
+            <h3> Display: Inline </h3>
+            <p>Exibe um elemento em linha (como span). Quaisquer propriedades de altura e largura não terão efeito.</p>
+        </div>
 
-                    <div class="item">
-                        <h2>Display: Flex</h2>
-                        <p>Exibe um elemento como um contêiner flexível em nível de bloco.</p>
+        <div class="display">
+            <h3> absolute: </h3>
+            <p>O elemento é posicionado em relação ao seu primeiro elemento ancestral posicionado (não estático).</p>
 
-                        <div class="item">
-                            <h2>Display: Inline-Flex</h2>
-                            <p>Exibe um elemento como um contêiner flexível embutido.</p>
+        </div>
 
-                        </div>
+        <div class="display">
+            <h3> fixed: </h3>
+            <p>no CSS fixa um elemento na tela (viewport), tornando-o visível mesmo durante a rolagem (scroll) da
+                página. </p>
+        </div>
 
-                        <div class="item">
-                            <h2>Display: Grid</h2>
-                            <p>Exibe um elemento como um contêiner de grade em nível de bloco.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Inline-Grid</h2>
-                            <p>Exibe um elemento como um contêiner de grade embutido.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: flow-Root</h2>
-                            <p>Cria um contexto de formatação de bloco, transformando um elemento em uma caixa de layout
-                                independente.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Table</h2>
-                            <p>Permita que o elemento se comporte como um elemento.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Block-Flow</h2>
-                            <p>Cria uma caixa em nível de bloco que se empilha verticalmente, ocupando 100% da largura,
-                                enquanto instrui seus filhos a usar o layout normal de bloco e em linha (flow).</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Block-Flex</h2>
-                            <p>faz com que um elemento ocupe toda a largura disponível e quebre a linha, enquanto
-                                display:
-                                flex transforma um contêiner em flexível.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Block-Grid</h2>
-                            <p>Você aplica “display: grid” a um elemento. Os filhos diretos desse contêiner se tornarão
-                                automaticamente itens da grade e poderão então ser organizados em colunas e linhas </p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Block Flow-Root</h2>
-                            <p>Define explicitamente os tipos de exibição externa e interna de um elemento,
-                                criando um contêiner em nível de bloco com um novo contexto de formatação de bloco para
-                                seu conteúdo.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Inline Flow</h2>
-                            <p>Refere-se à forma como os elementos em linha são exibidos horizontalmente, um após o
-                                outro, na direção em que as frases são escritas,
-                                de acordo com o modo de escrita do documento.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Inline Flex</h2>
-                            <p>Cria um contêiner flexível que se integra ao conteúdo ao redor como um único elemento
-                                embutido.</p>
-
-                        </div>
-
-                        <div class="item">
-                            <h2>Display: Inline Grid</h2>
-                            <p>Cria um contêiner em forma de grade que se adapta ao conteúdo ao redor como um elemento
-                                embutido.</p>
-
-                        </div>
-
-                    </div>
-
-                    <div class="item">
-                        <h2>Display: Inline Flow-Root</h2>
-                        <p>sintaxe explícita de múltiplas palavras-chave. </p>
-
-                    </div>
+        <div class="display">
+            <h3> sticky: </h3>
+            <p>é um posicionamento híbrido que faz um elemento alternar entre relative e fixed dependendo da rolagem da
+                página.</p>
+            <p> Ele age como relativo até atingir um ponto definido (como top: 0), tornando-se fixo na tela</p>
+        </div>
 
     </main>
-
-    <footer>Todos os direitos reservados à Leonardo, Miguel, Theo & Tiago</footer>
-
+    <footer>
+        Todos os direitos reservados à Leonardo, Miguel, Theo & Tiago
+    </footer>
 </body>
 
 </html>

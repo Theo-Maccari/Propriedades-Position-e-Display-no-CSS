@@ -4,9 +4,7 @@ body {
     background-color: rgb(185, 221, 233);
 }
 
-#position {
-    display: flex;
-}
+
 
 
 header {
@@ -101,9 +99,19 @@ footer {
 
 .item {
     padding: 20px;
-
+}
 
 .position { 
+ padding: 20px;
+ border-radius: 25px;
+ border: 25px;
+ background-color: aliceblue;
+ text-align: center;
+ gap: 50px;
+ margin: 50px;
+}
+
+.display { 
  padding: 20px;
  border-radius: 25px;
  border: 25px;
